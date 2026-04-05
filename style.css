@@ -225,13 +225,6 @@ body.dark .btn-outline { color: #ccc; border-color: #333; }
 /* ---- SECTIONS ---- */
 section { padding: 64px 0; }
 
-.section-line {
-  width: 32px;
-  height: 2px;
-  background: #d97706;
-  margin-bottom: 12px;
-}
-
 .section-label {
   font-family: 'JetBrains Mono', monospace;
   font-size: 11px;
@@ -251,21 +244,18 @@ section { padding: 64px 0; }
 
 hr {
   border: none;
-  height: 1px;
-  background: #eee;
+  height: 0;
+  margin: 0;
 }
 
-body.dark hr { background: #222; }
+body.dark hr { background: none; }
 
 /* ---- EXPERIENCE ---- */
 .job {
   padding: 28px 0;
-  border-bottom: 1px solid #eee;
 }
 
-body.dark .job { border-bottom-color: #222; }
-
-.job:last-child { border-bottom: none; }
+.job:last-child { padding-bottom: 0; }
 
 .job-header {
   display: flex;
@@ -320,19 +310,10 @@ body.dark .job { border-bottom-color: #222; }
   font-size: 14px;
   color: #555;
   line-height: 1.75;
-  padding-left: 16px;
-  position: relative;
   margin-bottom: 4px;
 }
 
 body.dark .job li { color: #999; }
-
-.job li::before {
-  content: '—';
-  position: absolute;
-  left: 0;
-  color: #d97706;
-}
 
 .tags {
   display: flex;
