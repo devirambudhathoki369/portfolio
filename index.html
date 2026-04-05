@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Deviram Budhathoki — Full-Stack Developer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="wrap">
+      <a href="#" class="nav-brand">Deviram<span>.</span></a>
+      <div class="nav-right">
+        <div class="nav-links" id="navLinks">
+          <a href="#experience" onclick="closeMenu()">Experience</a>
+          <a href="#projects" onclick="closeMenu()">Projects</a>
+          <a href="#skills" onclick="closeMenu()">Skills</a>
+          <a href="#contact" onclick="closeMenu()">Contact</a>
+        </div>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+          <svg class="icon-sun" viewBox="0 0 24 24"><path d="M12 7a5 5 0 100 10 5 5 0 000-10zM12 1v2m0 18v2M4.22 4.22l1.42 1.42m12.72 12.72l1.42 1.42M1 12h2m18 0h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+          <svg class="icon-moon" viewBox="0 0 24 24"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
+        </button>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+          <i></i><i></i><i></i>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap">
+      <div class="hero-inner">
+        <p class="hero-tag">Full-Stack Developer &mdash; Kathmandu, Nepal</p>
+        <h1 class="hero-name">Deviram<br/><i>Budhathoki</i></h1>
+        <p class="hero-role">Software Engineer &bull; Web Developer &bull; Instructor</p>
+        <p class="hero-bio">I build web applications from first commit to final deploy — turning complex ideas into clean, performant products that people love to use.</p>
+        <div class="hero-actions">
+          <a href="Deviram_budhathoki.docx" download class="btn btn-primary">
+            <svg viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4m4-5l5 5 5-5m-5 5V3"/></svg>
+            Download CV
+          </a>
+          <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="wrap"><div class="divider"></div></div>
+
+  <!-- EXPERIENCE -->
+  <section class="section" id="experience">
+    <div class="wrap">
+      <div class="rv">
+        <p class="section-label">Experience</p>
+        <h2 class="section-title">Where I've<br/>worked</h2>
+      </div>
+
+      <!-- Role: National Planning Commission -->
+      <div class="exp rv">
+        <div class="exp-date">Feb 2026 —<br/>Present</div>
+        <div>
+          <h3 class="exp-title">Web Development Instructor <span class="badge-now">Current</span></h3>
+          <p class="exp-place">National Planning Commission, Singhadurbar, Kathmandu</p>
+          <ul class="exp-desc">
+            <li>Delivering instruction in Python programming, front-end development, and Django web framework to government staff and trainees.</li>
+            <li>Developing curriculum and hands-on projects to build practical web development skills within a public-sector environment.</li>
+          </ul>
+          <div class="exp-tags">
+            <span class="tag">Python</span><span class="tag">Django</span><span class="tag">Front-End Development</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Role: Himalayan IT -->
+      <div class="exp rv">
+        <div class="exp-date">May 2023 —<br/>Present</div>
+        <div>
+          <h3 class="exp-title">Software Developer <span class="badge-now">Current</span></h3>
+          <p class="exp-place">Himalayan IT, New Baneshwor, Kathmandu</p>
+          <ul class="exp-desc">
+            <li>Led the full SDLC for a book-review platform — users can rate, review, and share their reading collections.</li>
+            <li>Built with React, TypeScript &amp; JavaScript following SCRUM, owning release management end-to-end.</li>
+            <li>Partnered with UI designers on mobile design standards; ran QA testing to catch bugs and boost performance.</li>
+            <li>Architected CI/CD pipelines with GitHub Actions to automate testing and streamline deployments.</li>
+          </ul>
+          <div class="exp-tags">
+            <span class="tag">React</span><span class="tag">Laravel</span><span class="tag">Django</span><span class="tag">Python</span><span class="tag">Node.js</span><span class="tag">MySQL</span><span class="tag">GitHub Actions</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Role: Optimist Education -->
+      <div class="exp rv">
+        <div class="exp-date">May 2025 —<br/>Jun 2025</div>
+        <div>
+          <h3 class="exp-title">Computer Technology Instructor</h3>
+          <p class="exp-place">Optimist Education, Kumaripati, Lalitpur</p>
+          <ul class="exp-desc">
+            <li>Taught productivity tools (Word, Excel, PowerPoint) and web development fundamentals (HTML, CSS, JavaScript) to aspiring technologists.</li>
+          </ul>
+          <div class="exp-tags">
+            <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span><span class="tag">MS Office</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <div class="wrap"><div class="divider"></div></div>
+
+  <!-- PROJECTS -->
+  <section class="section" id="projects">
+    <div class="wrap">
+      <div class="rv">
+        <p class="section-label">Projects</p>
+        <h2 class="section-title">Selected<br/>work</h2>
+      </div>
+
+      <div class="proj-grid">
+        <div class="proj-card rv">
+          <p class="proj-card-type">E-Commerce Platform</p>
+          <h3 class="proj-card-name">Proficient Healthcare</h3>
+          <p class="proj-card-text">Full e-commerce platform for healthcare products — catalogue, cart, integrated payments, and admin dashboard.</p>
+        </div>
+        <div class="proj-card rv">
+          <p class="proj-card-type">FinTech Platform</p>
+          <h3 class="proj-card-name">NEHCO Share Management</h3>
+          <p class="proj-card-text">Portfolio tracking with real-time share data, analytics dashboards, and multi-user account management.</p>
+        </div>
+        <div class="proj-card rv">
+          <p class="proj-card-type">Education Portal</p>
+          <h3 class="proj-card-name">MMIHS Education Portal</h3>
+          <p class="proj-card-text">Academic portal for Manmohan Memorial Institute — course listings, student resources, and faculty profiles.</p>
+        </div>
+        <div class="proj-card rv">
+          <p class="proj-card-type">SaaS Application</p>
+          <h3 class="proj-card-name">Restaurant Management System</h3>
+          <p class="proj-card-text">Multi-branch SaaS for restaurants — table management, order processing, inventory tracking from one dashboard.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section skills-area" id="skills">
+    <div class="wrap">
+      <div class="rv">
+        <p class="section-label">Skills</p>
+        <h2 class="section-title">Technical<br/>toolkit</h2>
+      </div>
+
+      <div class="skills-grid rv">
+        <div>
+          <h3 class="skill-group-heading">Languages</h3>
+          <div>
+            <div class="skill-row"><div class="skill-pip"></div><span>JavaScript</span></div>
+            <div class="skill-row"><div class="skill-pip"></div><span>TypeScript</span></div>
+            <div class="skill-row"><div class="skill-pip"></div><span>Python</span></div>
+            <div class="skill-row"><div class="skill-pip"></div><span>PHP</span></div>
+          </div>
+        </div>
+        <div>
+          <h3 class="skill-group-heading">Frameworks</h3>
+          <div>
+            <div class="skill-row"><div class="skill-pip"></div><span>React.js</span></div>
+            <div class="skill-row"><div class="skill-pip"></div><span>Django</span></div>
+            <div class="skill-row"><div class="skill-pip"></div><span>Laravel</span></div>
+            <div class="skill-row"><div class="skill-pip"></div><span>Node.js</span></div>
+          </div>
+        </div>
+        <div>
+          <h3 class="skill-group-heading">Database &amp; DevOps</h3>
+          <div>
+            <div class="skill-row"><div class="skill-pip"></div><span>MySQL</span></div>
+            <div class="skill-row"><div class="skill-pip"></div><span>PostgreSQL</span></div>
+            <div class="skill-row"><div class="skill-pip"></div><span>GitHub Actions</span></div>
+            <div class="skill-row"><div class="skill-pip"></div><span>Git &amp; VS Code</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="wrap"><div class="divider"></div></div>
+
+  <!-- CONTACT -->
+  <section class="section" id="contact">
+    <div class="wrap">
+      <div class="contact-grid">
+        <div class="rv">
+          <p class="section-label">Contact</p>
+          <h2 class="section-title">Let's build<br/>something great</h2>
+          <p class="contact-text">Open to opportunities, collaborations, and conversations. Whether you have a project in mind or just want to say hello — reach out.</p>
+        </div>
+        <div class="contact-cards rv">
+          <a href="mailto:devirambudhathoki369@gmail.com" class="c-card">
+            <div class="c-card-icon">
+              <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+            </div>
+            <div>
+              <div class="c-card-small">Email</div>
+              <div class="c-card-main">devirambudhathoki369@gmail.com</div>
+            </div>
+          </a>
+          <a href="https://github.com/devirambudhathoki369" target="_blank" rel="noopener" class="c-card">
+            <div class="c-card-icon">
+              <svg viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+            </div>
+            <div>
+              <div class="c-card-small">GitHub</div>
+              <div class="c-card-main">devirambudhathoki369</div>
+            </div>
+          </a>
+          <div class="c-card">
+            <div class="c-card-icon">
+              <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5S10.62 6.5 12 6.5s2.5 1.12 2.5 2.5S13.38 11.5 12 11.5z"/></svg>
+            </div>
+            <div>
+              <div class="c-card-small">Location</div>
+              <div class="c-card-main">Kathmandu, Nepal</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="wrap">
+      <p>&copy; 2026 Deviram Budhathoki &mdash; Crafted with <span>&hearts;</span> in Kathmandu</p>
+    </div>
+  </footer>
+
+  <!-- JS -->
+  <script>
+    /* ---- Theme toggle ---- */
+    (function () {
+      var html = document.documentElement;
+      var btn = document.getElementById('themeToggle');
+      var stored = localStorage.getItem('theme');
+
+      if (stored) {
+        html.setAttribute('data-theme', stored);
+      } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        html.setAttribute('data-theme', 'dark');
+      }
+
+      btn.addEventListener('click', function () {
+        var current = html.getAttribute('data-theme');
+        var next = current === 'dark' ? 'light' : 'dark';
+        html.setAttribute('data-theme', next);
+        localStorage.setItem('theme', next);
+      });
+    })();
+
+    /* ---- Sticky nav ---- */
+    var nav = document.getElementById('nav');
+    window.addEventListener('scroll', function () {
+      nav.classList.toggle('pinned', window.scrollY > 40);
+    });
+
+    /* ---- Mobile menu ---- */
+    var burger = document.getElementById('hamburger');
+    var links = document.getElementById('navLinks');
+
+    burger.addEventListener('click', function () {
+      burger.classList.toggle('open');
+      links.classList.toggle('open');
+    });
+
+    function closeMenu() {
+      burger.classList.remove('open');
+      links.classList.remove('open');
+    }
+
+    /* ---- Scroll reveal ---- */
+    var els = document.querySelectorAll('.rv');
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (e.isIntersecting) {
+          e.target.classList.add('vis');
+          io.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.08 });
+
+    els.forEach(function (el) { io.observe(el); });
+  </script>
+
+</body>
+</html>
